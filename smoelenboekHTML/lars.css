@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #202522;
-    color: #e3e8e3;
+    background-color: #090355;
+    color: #02f6e1;
     font-family: "Courier New", monospace;
     text-align: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .profiel-box h3 {
-    color: #9bd6a4;
+    color: #255ac3;
     font-size: 24px;
 }
 
