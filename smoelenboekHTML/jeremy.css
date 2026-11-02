@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #dce8f5;
+    color: #203854;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.profiel-box {
+    width: 300px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #203854;
+    background-color: #f8fbff;
+}
+
+.profiel-box img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #7295b8;
+    border-radius: 50%;
+}
+
+.profiel-box h3 {
+    color: #203854;
+    font-size: 27px;
+}
+
+.profiel-box p {
+    color: #526b83;
+}
+
+.terug-knop {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #203854;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 400px) {
+    .profiel-box {
+        margin: 20px auto;
+        padding: 20px;
+    }
+}

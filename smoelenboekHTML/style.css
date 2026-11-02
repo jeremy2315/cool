@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #14213D;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    background-color: #14213D;
+    border-bottom: 5px solid #E91E63;
+    color: white;
+}
+
+.kaart-link {
+    display: inline-block;
+    color: #14213D;
+    text-decoration: none;
+}
+
+.kaart {
+    width: 180px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.kaart img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        padding: 16px 8px;
+        font-size: 26px;
+    }
+
+    .kaart-link {
+        width: 44%;
+        vertical-align: top;
+    }
+
+    .kaart {
+        width: auto;
+        margin: 8px 0;
+        padding: 12px 4px;
+    }
+
+    .kaart h2 {
+        font-size: 16px;
+    }
+
+}

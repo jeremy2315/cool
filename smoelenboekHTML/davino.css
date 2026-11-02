@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #e8f0f3;
+    color: #17324d;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+}
+
+.profiel-box {
+    width: 300px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 25px;
+    border-top: 8px solid #347a79;
+    background-color: white;
+}
+
+.profiel-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profiel-box h3 {
+    color: #347a79;
+    font-size: 26px;
+}
+
+.profiel-box p {
+    padding: 8px;
+    background-color: #e8f0f3;
+}
+
+.terug-knop {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #17324d;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 400px) {
+    .profiel-box {
+        margin: 20px auto;
+        padding: 15px;
+    }
+}
