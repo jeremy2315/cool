@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #202522;
-    color: #e3e8e3;
+    background: #00ffff;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -12,7 +12,7 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: #303833;
+    background: #0073ff;
 }
 
 .profiel-box img {
@@ -23,8 +23,8 @@ body {
 }
 
 .profiel-box h1 {
-    color: #9bd6a4;
-    font-size: 26px;
+    color: #ffffff;
+    font-size: 24px;
 }
 
 .profiel-box p {
