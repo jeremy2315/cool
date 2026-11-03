@@ -3,7 +3,7 @@ body {
     padding: 20px;
     background: #00ffff;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     text-align: center;
 }
 
@@ -30,6 +30,10 @@ body {
 .profiel-box p {
     margin: 10px 0;
     color: #d0d9d1;
+}
+
+.profiel-box h2 {
+    font-size: 22px;
 }
 
 .terug-knop {
