@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #fff1d6;
-    color: #563a2d;
+    background: #e8f0f3;
+    color: #17324d;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -12,7 +12,7 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: #fffaf0;
+    background: #ffffff;
 }
 
 .profiel-box img {
@@ -23,7 +23,7 @@ body {
 }
 
 .profiel-box h1 {
-    color: #a64f32;
+    color: #347a79;
     font-size: 26px;
 }
 
@@ -35,7 +35,7 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 15px;
-    background: #a64f32;
-    color: white;
+    background: #17324d;
+    color: #ffffff;
     text-decoration: none;
 }

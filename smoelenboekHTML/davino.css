@@ -12,7 +12,7 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: white;
+    background: #ffffff;
 }
 
 .profiel-box img {
@@ -36,6 +36,6 @@ body {
     margin-top: 15px;
     padding: 10px 15px;
     background: #17324d;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
