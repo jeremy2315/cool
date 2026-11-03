@@ -3,57 +3,137 @@
 }
 
 body {
-    background-color: white;
-    color: #14213D;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #002F5C;
     text-align: center;
 }
 
+.pagina-kop {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: #DC006A;
+    color: #ffffff;
+    border-bottom: 5px solid #DC006A;
+}
+
+.gilde-logo {
+    width: 150px;
+    height: 130px;
+    padding: 4px;
+    object-fit: cover;
+    object-position: top center;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.kop-tekst {
+    flex: 1;
+    padding-right: 150px;
+}
+
 h1 {
-    padding: 20px;
-    background-color: #14213D;
-    border-bottom: 5px solid #E91E63;
-    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+.pagina-kop p {
+    margin: 8px 0 0;
+}
+
+.profielen {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+    flex: 1;
 }
 
 .kaart-link {
-    display: inline-block;
-    color: #14213D;
+    display: block;
+    color: #002F5C;
     text-decoration: none;
 }
 
+.kaart-link:focus {
+    outline: none;
+}
+
 .kaart {
-    width: 180px;
-    margin: 10px;
-    padding: 15px;
-    background-color: #f2f2f2;
+    padding: 28px 20px;
+    background-color: #fff7fa;
+    border: 1px solid #f1bfd3;
+    border-top: 4px solid #DC006A;
+    border-radius: 8px;
 }
 
 .kaart img {
-    width: 55px;
-    height: 55px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.kaart h3 {
+    margin: 0;
+    color: #002F5C;
+}
+
+.kaart .functie {
+    margin: 10px 0 0;
+    color: #002F5C;
+    font-size: 16px;
+}
+
+.pagina-footer {
+    padding: 20px;
+    background-color: #002F5C;
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {
-    h1 {
-        padding: 16px 8px;
-        font-size: 26px;
+    .pagina-kop {
+        gap: 8px;
+        padding: 10px 12px;
     }
 
-    .kaart-link {
-        width: 44%;
-        vertical-align: top;
+    .gilde-logo {
+        width: 105px;
+        height: 95px;
+    }
+
+    .kop-tekst {
+        padding-right: 105px;
+    }
+
+    h1 {
+        font-size: 22px;
     }
 
     .kaart {
-        width: auto;
-        margin: 8px 0;
-        padding: 12px 4px;
+        padding: 10px 4px;
     }
 
-    .kaart h2 {
-        font-size: 16px;
+    .kaart h3 {
+        font-size: 12px;
+        overflow-wrap: anywhere;
     }
 
+    .kaart .functie {
+        font-size: 10px;
+    }
+
+    .kaart img {
+        width: 48px;
+        height: 48px;
+    }
 }

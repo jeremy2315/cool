@@ -1,48 +1,42 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #202522;
+    background: #202522;
     color: #e3e8e3;
-    font-family: "Courier New", monospace;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
 
 .profiel-box {
-    width: 300px;
-    max-width: 100%;
-    margin: 50px auto;
+    box-sizing: border-box;
+    max-width: 360px;
+    margin: 30px auto;
     padding: 25px;
-    border: 2px solid #71a77b;
-    background-color: #303833;
+    background: #303833;
 }
 
 .profiel-box img {
-    width: 70px;
-    height: 70px;
-    border-radius: 8px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.profiel-box h3 {
+.profiel-box h1 {
     color: #9bd6a4;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .profiel-box p {
+    margin: 10px 0;
     color: #d0d9d1;
 }
 
 .terug-knop {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px;
-    background-color: #71a77b;
+    padding: 10px 15px;
+    background: #71a77b;
     color: #202522;
     text-decoration: none;
-}
-
-@media (max-width: 400px) {
-    .profiel-box {
-        margin: 20px auto;
-        padding: 15px;
-    }
 }
