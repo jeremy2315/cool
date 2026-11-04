@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #e8f0f3;
-    color: #17324d;
-    font-family: Arial, sans-serif;
+    background: #1b97c4;
+    color: #012952;
+    font-family: times new roman, sans-serif;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: #ffffff;
+    background: #821602;
 }
 
 .profiel-box img {
