@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #e8f0f3;
-    color: #17324d;
-    font-family: Arial, sans-serif;
+    background: #ffcccc;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
     text-align: center;
 }
 
@@ -12,30 +12,37 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: #ffffff;
+    background: #b30000;
 }
 
 .profiel-box img {
     width: 90px;
     height: 90px;
-    border-radius: 50%;
     object-fit: cover;
+    border: 2px solid #ffffff;
 }
 
-.profiel-box h1 {
-    color: #347a79;
-    font-size: 26px;
-}
+.profiel-box h1 { font-size: 24px; }
+.profiel-box h2 { font-size: 20px; margin-top: 20px; }
 
 .profiel-box p {
     margin: 10px 0;
+    color: #ffcccc;
+    font-size: 14px;
+}
+
+.profiel-box a {
+    color: #ffeb3b;
+    font-size: 13px;
+    word-break: break-all;
 }
 
 .terug-knop {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 15px;
-    background: #17324d;
-    color: #ffffff;
+    background: #ffffff;
+    color: #b30000;
     text-decoration: none;
+    font-weight: bold;
 }
