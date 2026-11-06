@@ -1,10 +1,14 @@
 body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 20px;
-    background: #00ffff;
-    color: #ffffff;
+    background: #05e1f0;
+    color: #000000;
     font-family: Georgia, serif;
-    text-align: center;
+    text-align: left;
 }
 
 .profiel-box {
@@ -12,24 +16,29 @@ body {
     max-width: 360px;
     margin: 30px auto;
     padding: 25px;
-    background: #0073ff;
+    background: #a5c5e9;
+    border: 2px solid #000;
 }
 
 .profiel-box img {
+    float: right;
     width: 90px;
     height: 90px;
+    margin: 0 0 10px 15px;
+    border: 2px solid #000;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center;
 }
 
 .profiel-box h1 {
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
 }
 
 .profiel-box p {
     margin: 10px 0;
-    color: #d0d9d1;
+    color: #595454;
 }
 
 .profiel-box h2 {
@@ -39,8 +48,32 @@ body {
 .terug-knop {
     display: inline-block;
     margin-top: 15px;
+    margin-left: 50px;
     padding: 10px 15px;
     background: #71a77b;
     color: #202522;
     text-decoration: none;
+}
+
+.collegas {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #71a77b;
+    color: #202522;
+    text-decoration: none;
+}
+
+.pagina-footer {
+    padding: 10px;
+    margin-top: auto;
+    margin-right: -20px;
+    margin-left: -20px;
+    background-color: #002F5C;
+    color: #ffffff;
+    text-align: center;
+}
+
+.pagina-footer a {
+    color: #ffffff;
 }
