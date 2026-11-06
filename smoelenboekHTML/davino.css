@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #1b97c4;
+    background: #0465af;
     color: #012952;
     font-family: times new roman, sans-serif;
     text-align: center;
@@ -9,10 +9,12 @@ body {
 
 .profiel-box {
     box-sizing: border-box;
-    max-width: 360px;
+    max-width: 850px;
     margin: 30px auto;
-    padding: 25px;
+    padding: 20px;
     background: #821602;
+    border-radius: 25px;
+
 }
 
 .profiel-box img {
@@ -36,6 +38,36 @@ body {
     margin-top: 15px;
     padding: 10px 15px;
     background: #17324d;
-    color: #ffffff;
+    color: #01c1f7;
     text-decoration: none;
+}
+
+.groep-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 15px 250px;
+}
+
+.groep-links a, .terug-knop {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #01c1f7;
+    color: #091be1;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.groep-links a:hover, .groep-links a.actief, .terug-knop:hover {
+    background: #091be1;
+    color: #01c1f7;
+}
+
+.terug-knop {
+    background: #22ff00; 
+    color: #f70101;
+    margin-top: 10px;
+   
 }
