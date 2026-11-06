@@ -1,40 +1,42 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: 40px;
     background: #f3e8ff; 
     color: #4c1d95;
     font-family: Arial, sans-serif;
-    text-align: center;
+    text-align: left; 
 }
 
 .profiel-box {
-    box-sizing: border-box;
-    max-width: 360px;
-    margin: 30px auto;
-    padding: 25px;
+    max-width: 500px;
+    padding: 30px;
     background: #ffffff;
-    border-radius: 20px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(126, 34, 206, 0.15); 
+    border-left: 8px solid #7e22ce; 
 }
 
 .profiel-box img {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%; 
     object-fit: cover;
     border: 3px solid #7e22ce; 
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
 
-.profiel-box h1 { font-size: 24px; color: #7e22ce; }
-.profiel-box h2 { font-size: 20px; color: #7e22ce; margin-top: 20px; }
+.profiel-box h1 { font-size: 24px; color: #7e22ce; margin: 0 0 5px 0; }
+.profiel-box h2 { font-size: 18px; color: #7e22ce; margin-top: 25px; clear: both; }
 
 .profiel-box p {
-    margin: 10px 0;
+    margin: 6px 0;
     font-size: 14px;
 }
 
 .profiel-box a {
-    color: #a855f7;
+    color: #c29fe3;
     font-size: 13px;
     word-break: break-all; 
 }
@@ -42,12 +44,11 @@ body {
 .groep-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
+    gap: 6px;
     margin: 15px 0;
 }
 
-.groep-links a {
+.groep-links a, .terug-knop {
     display: inline-block;
     padding: 8px 12px;
     background: #e9d5ff;
@@ -55,25 +56,16 @@ body {
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
-.groep-links a:hover {
-    background: #7e22ce;
-    color: #ffffff;
-}
-
-.groep-links a.actief {
+.groep-links a:hover, .groep-links a.actief, .terug-knop:hover {
     background: #7e22ce;
     color: #ffffff;
 }
 
 .terug-knop {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #7e22ce;  
+    background: #7e22ce; 
     color: #ffffff;
-    text-decoration: none;
-    border-radius: 25px;  
+    margin-top: 10px;
 }
