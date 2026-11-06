@@ -39,6 +39,35 @@ body {
     word-break: break-all; 
 }
 
+.groep-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.groep-links a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #e9d5ff;
+    color: #6b21a8;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.groep-links a:hover {
+    background: #7e22ce;
+    color: #ffffff;
+}
+
+.groep-links a.actief {
+    background: #7e22ce;
+    color: #ffffff;
+}
+
 .terug-knop {
     display: inline-block;
     margin-top: 15px;
